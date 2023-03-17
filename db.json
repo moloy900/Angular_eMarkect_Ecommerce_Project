@@ -1,0 +1,57 @@
+{
+  "seller": [
+    {
+      "name": "Moloy",
+      "password": "moloy@123",
+      "email": "bleads2@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Ram",
+      "password": "ram@123",
+      "email": "ram@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Sam",
+      "password": "sam@123",
+      "email": "sam@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "ratan",
+      "password": "ratan@123",
+      "email": "ratan@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "jonny",
+      "password": "jonny@123",
+      "email": "jonny@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "tonny",
+      "password": "tonny123",
+      "email": "tonny@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "ratan",
+      "password": "hhjh",
+      "email": "ratan@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "tonny",
+      "password": "amika",
+      "email": "tonny@gmail.com",
+      "id": 8
+    },
+    {
+      "email": "xyz@gmail.com",
+      "password": "ambika",
+      "id": 9
+    }
+  ]
+}
