@@ -14,7 +14,7 @@ describe('SelerHomeComponent', () => {
 
     fixture = TestBed.createComponent(SelerHomeComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
+    fixture.detectChanges(); 
   });
 
   it('should create', () => {
