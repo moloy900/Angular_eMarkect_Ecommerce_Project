@@ -52,6 +52,214 @@
       "email": "xyz@gmail.com",
       "password": "ambika",
       "id": 9
+    },
+    {
+      "name": "Moloy Kumar Nath",
+      "password": "ambika",
+      "email": "moloy@test.com",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung M40",
+      "price": "35000",
+      "color": "Blue",
+      "category": "Mobile",
+      "description": "This is a Samsung Product",
+      "image": "https://m.media-amazon.com/images/I/810Rscvmd4L._SX522_.jpg",
+      "id": 1
+    },
+    {
+      "name": "Dell",
+      "price": "63000",
+      "color": "black",
+      "category": "Laptop",
+      "description": "This is Dell Product",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full",
+      "id": 2
+    },
+    {
+      "name": "Iphone",
+      "price": "1250000",
+      "color": "White",
+      "category": "Mobile",
+      "description": "This is Apple Product",
+      "image": "https://itronics.in/wp-content/uploads/2021/09/iphone-13-pink-select-2021.png",
+      "id": 3
+    },
+    {
+      "name": "HP",
+      "price": "53000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "This is HP product",
+      "image": "https://cdn1.smartprix.com/rx-iBRlddyjp-w1200-h1200/BRlddyjp.jpg",
+      "id": 4
+    },
+    {
+      "name": "Motorola G9",
+      "price": "25000",
+      "color": "yellow",
+      "category": "Mobile",
+      "description": "This is Motorola Product",
+      "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51IFAltnM4L._SY550_.jpg",
+      "id": 5
+    },
+    {
+      "name": "LG",
+      "price": "35000",
+      "color": "Grey",
+      "category": "Washing Machine",
+      "description": "This is LG Washing Machine",
+      "image": "https://www.lg.com/in/images/washing-machines/md07540887/gallery/FHM1408BDL-Washing-Machines-Right-View-MZ-04-v1.jpg",
+      "id": 6
+    },
+    {
+      "name": "Sony Bravia",
+      "price": "65000",
+      "color": "Black",
+      "category": "TV",
+      "description": "This is Sony Bravia TV",
+      "image": "https://www.sony.co.in/image/ccbe548efa94995a9c034d96a4a6acbb?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
+      "id": 7
+    },
+    {
+      "name": "Apple MacBook",
+      "price": "143000",
+      "color": "Gold",
+      "category": "Laptop",
+      "description": "This is Apple MacBook",
+      "image": "https://media.croma.com/image/upload/v1666277740/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/256713_0_c6ythu.png",
+      "id": 8
+    },
+    {
+      "name": "SanDisk Ultra",
+      "price": "799",
+      "color": "Black",
+      "category": "microSD Card",
+      "description": "This is SanDisk Ultra Card",
+      "image": "https://m.media-amazon.com/images/I/51YntPGlbgL._SX425_.jpg",
+      "id": 9
+    },
+    {
+      "name": "boAt",
+      "price": "1799",
+      "color": "Black",
+      "category": "Hand Watch",
+      "description": "This is boAt Hand Watch",
+      "image": "https://m.media-amazon.com/images/I/61C32Tn1a+L._SX425_.jpg",
+      "id": 10
+    },
+    {
+      "name": "Vega",
+      "price": "1230",
+      "color": "Black",
+      "category": "Bike Helmet",
+      "description": "Vega Crux Black Helmet-L",
+      "image": "https://m.media-amazon.com/images/I/61eEetcCb9L._SX425_.jpg",
+      "id": 11
+    },
+    {
+      "name": "Kwatchi women",
+      "price": "928",
+      "color": "Black",
+      "category": "Women Sarees",
+      "description": "Black\n",
+      "image": "https://m.media-amazon.com/images/I/81VKDsr+yTL._UY679_.jpg",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "uname": "Sam",
+      "email": "moloy@test.com",
+      "password": "ambika",
+      "id": 1
+    },
+    {
+      "uname": "Sam",
+      "email": "xyz@gmail.com",
+      "password": "ambika",
+      "id": 2
+    },
+    {
+      "uname": "raja",
+      "email": "tonny@gmail.com",
+      "password": "ambika",
+      "id": 3
+    },
+    {
+      "uname": "raja",
+      "email": "raja@test.com",
+      "password": "ambika",
+      "id": 4
+    },
+    {
+      "uname": "babul",
+      "email": "babul@test.com",
+      "password": "ambika",
+      "id": 5
+    },
+    {
+      "uname": "zero",
+      "email": "zero@gmail.com",
+      "password": "ambika",
+      "id": 6
+    },
+    {
+      "uname": "final",
+      "email": "final@gamil.com",
+      "password": "ambika",
+      "id": 7
+    },
+    {
+      "uname": "java",
+      "email": "java@gmail.com",
+      "password": "ambika",
+      "id": 8
+    },
+    {
+      "uname": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung M40",
+      "price": "35000",
+      "color": "Blue",
+      "category": "Mobile",
+      "description": "This is a Samsung Product",
+      "image": "https://m.media-amazon.com/images/I/810Rscvmd4L._SX522_.jpg",
+      "quantity": 2,
+      "productId": 1,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "name": "Vega",
+      "price": "1230",
+      "color": "Black",
+      "category": "Bike Helmet",
+      "description": "Vega Crux Black Helmet-L",
+      "image": "https://m.media-amazon.com/images/I/61eEetcCb9L._SX425_.jpg",
+      "quantity": 2,
+      "productId": 11,
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "email": "bleads2@gmail.com",
+      "address": "neppara, kalna",
+      "contact": "8963562654",
+      "totalPrice": 453100,
+      "userId": 6,
+      "id": 1
     }
   ]
 }
