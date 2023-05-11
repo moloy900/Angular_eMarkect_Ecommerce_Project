@@ -24,7 +24,7 @@ export class SellerService {
   }
 
   reloadSeller(){
-    if(localStorage.getItem('seller')){
+    if(localStorage.getItem('seller')){ 
       this.isSellerSign.next(true);
       this.route.navigate(['seller-home']);
     }
@@ -37,7 +37,7 @@ export class SellerService {
       console.log(res);
       if(res && res.body && res.body.length){
         console.log("User login");
-        localStorage.setItem('seller',JSON.stringify(res.body)),
+        localStorage.setItem('seller',JSON.stringify(res.body[0])),
         this.route.navigate(['seller-home'])
       }else{
         console.log("user not login");
