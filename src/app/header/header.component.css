@@ -1,54 +1,80 @@
- .nav{
+ .nav {
     display: flex;
     justify-content: space-between;
  }
 
- .nav h1{
-    color: blueviolet;
+ .nav h1 {
+    color: rgb(255, 155, 42);;
     margin: 0;
     font-size: 40px;
  }
 
- .nav ul{
+ .nav ul {
     display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
  }
 
- .nav li{
-    padding-left:15px;
+ .nav li {
+    padding-left: 15px;
     padding-top: 15px;
  }
 
- .nav li a{
-    color: blueviolet;
+ .nav li a {
+    color: rgb(255, 155, 42);;
     text-decoration: none;
+    cursor: pointer;
  }
 
- .nav .nav-search input{
+ .nav .nav-search input {
     flex: 1;
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color: rgb(255, 155, 42);;
+    border: 1px solid rgb(255, 155, 42);;
     height: 35px;
     border-right: 0;
-    padding-left:10px; 
+    padding-left: 10px;
  }
 
- .nav .nav-search{
+ .nav .nav-search {
     margin-top: 5px;
     flex: 1;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
  }
- 
- .nav .nav-search button{
-    color:white;
-    border: 1px solid blueviolet;
+
+ .nav .nav-search button {
+    color: white;
+    border: 1px solid rgb(255, 155, 42);;
     height: 39px;
-    border-left:0px;
-    background-color:blueviolet;
+    border-left: 0px;
+    background-color: rgb(255, 155, 42);;
     padding: 10px;
  }
 
+ h1 a {
+    color: rgb(255, 155, 42);;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .suggested-result {
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+ }
+
+ .suggested-result li {
+    border: 1px solid #ddd;
+    padding: 5px;
+ }
+
+ .suggested-result li a {
+    cursor: pointer;
+    color: rgb(255, 155, 42);;
+ }
