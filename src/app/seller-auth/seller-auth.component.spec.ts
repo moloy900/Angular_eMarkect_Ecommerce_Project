@@ -13,7 +13,7 @@ describe('SellerAuthComponent', () => {
     .compileComponents();
 
     fixture = TestBed.createComponent(SellerAuthComponent);
-    component = fixture.componentInstance;
+    component = fixture.componentInstance; 
     fixture.detectChanges();
   });
 
