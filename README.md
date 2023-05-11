@@ -20,3 +20,8 @@ Below is an example of how you can instruct your audience on installing and sett
     4. BootStrap
         npm i bootstrap 
     
+# Contact
+Name: Moloy Kumar Nath
+Email: bleads2@gmail.com
+Project Link: https://github.com/moloy900/
+
