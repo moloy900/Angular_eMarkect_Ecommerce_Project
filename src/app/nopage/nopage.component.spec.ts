@@ -6,7 +6,7 @@ describe('NopageComponent', () => {
   let component: NopageComponent;
   let fixture: ComponentFixture<NopageComponent>;
 
-  beforeEach(async () => {
+  beforeEach(async () => { 
     await TestBed.configureTestingModule({
       declarations: [ NopageComponent ]
     })
