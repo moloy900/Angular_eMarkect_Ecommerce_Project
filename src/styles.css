@@ -20,19 +20,62 @@ body{
     height: 30px;
     margin-bottom: 20px;
     padding-left: 10px;
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid rgb(255, 155, 42);
+    color: rgb(255, 155, 42);
 }
 
 .form-button{
     height: 40px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(255, 155, 42);
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: rgb(255, 155, 42);
     color: white;
     font-size: 20px;
 }
 
 .error-p{
     color: red;
+}
+
+.message-p{
+    color: green;
+    text-align: center;
+}
+
+.carousel-caption{
+    background-color:rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 6px 10px rgb(46, 46, 46);
+ 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgb(255, 155, 42);
+    border-radius: 5px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.carousel-indicators .active{
+    background-color: rgb(255, 155, 42);
+}
+
+.invalid-input{
+    color: red;
+    font-size: 20px;
+    margin-top: -20px;
+    display: inline-block;
+    text-align: left;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+.max-width{
+    width: 100%;
 }
